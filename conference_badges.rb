@@ -19,7 +19,6 @@ def printer(attendees)
   rooms = assign_rooms(attendees)
   
   attendees.each do |attendee| 
-    binding.pry
     puts badge_maker(attendee)
     puts rooms[attendees.index(attendee)]
   end
