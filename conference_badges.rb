@@ -18,5 +18,4 @@ end
 def printer(attendees) 
   rooms = assign_rooms(attendees)
   rooms.each { |attendee_room| puts attendee_room }
-  end
 end
