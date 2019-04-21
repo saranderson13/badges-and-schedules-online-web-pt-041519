@@ -18,7 +18,6 @@ end
 
 def printer(attendees)
   attendees.each do |attendee|
-    binding.pry
-    puts badge_maker(attendee)
+    
   end
 end
