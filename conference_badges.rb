@@ -18,7 +18,7 @@ end
 def printer(attendees) 
   rooms = assign_rooms(attendees)
   rooms.each do |assignment| 
-    binding.pry
+    # binding.pry
     puts assignment 
   end
 end
