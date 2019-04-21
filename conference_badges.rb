@@ -21,6 +21,6 @@ def printer(attendees)
   attendees.each do |attendee| 
     binding.pry
     puts badge_maker(attendee)
-    puts rooms[attendees(attendee).index]
+    puts rooms[attendees.index(attendee)]
   end
 end
