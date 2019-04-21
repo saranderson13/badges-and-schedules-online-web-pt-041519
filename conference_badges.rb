@@ -9,7 +9,7 @@ end
 
 
 def assign_rooms(attendees)
-  
+  attendees.collect { |attendee| "Hello #{attendee}! You'll be assigned to room #{attendee.index + 1}!"
 end
 
 
