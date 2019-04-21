@@ -11,13 +11,13 @@ end
 
 
 def assign_rooms(attendees)
-  attendees.collect do |attendee| 
-    # room_num = attendees.index(attendee) + 1
-    "Hello, #{attendee}! You'll be assigned to room #{attendees.index(attendee) + 1}!"
+  attendees.collect { |attendee| "Hello, #{attendee}! You'll be assigned to room #{attendees.index(attendee) + 1}!" }
   end
 end
 
 
 def printer(attendees)
-  
+  attendees.each do |attendee|
+    puts badge_maker(attendee)
+  end
 end
